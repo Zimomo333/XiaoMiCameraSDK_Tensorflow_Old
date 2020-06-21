@@ -1,0 +1,58 @@
+﻿  stdafx.cpp
+  mynteyed_demo.cpp
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\camera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\device_info.h(37): warning C4251: “mynteyed::DeviceInfo::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteyed::DeviceInfo”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\device_info.h(62): warning C4251: “mynteyed::DeviceInfo::fw_version”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteyed::DeviceInfo”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\device_info.h(67): warning C4251: “mynteyed::DeviceInfo::sn”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteyed::DeviceInfo”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\image.h(174): warning C4251: “mynteyed::Image::data_”: class“std::shared_ptr<mynteyed::Image::data_t>”需要有 dll 接口由 class“mynteyed::Image”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\image.h(53): note: 参见“std::shared_ptr<mynteyed::Image::data_t>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\image.h(183): warning C4251: “std::enable_shared_from_this<mynteyed::ImageColor>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<mynteyed::ImageColor>”的客户端使用
+          with
+          [
+              _Ty=mynteyed::ImageColor
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(2029): note: 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=mynteyed::ImageColor
+          ]
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\image.h(211): warning C4251: “std::enable_shared_from_this<mynteyed::ImageDepth>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<mynteyed::ImageDepth>”的客户端使用
+          with
+          [
+              _Ty=mynteyed::ImageDepth
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(2029): note: 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=mynteyed::ImageDepth
+          ]
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(147): warning C4251: “mynteyed::StreamData::img”: class“std::shared_ptr<mynteyed::Image>”需要有 dll 接口由 struct“mynteyed::StreamData”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\device\image.h(50): note: 参见“std::shared_ptr<mynteyed::Image>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(149): warning C4251: “mynteyed::StreamData::img_info”: class“std::shared_ptr<mynteyed::ImgInfo>”需要有 dll 接口由 struct“mynteyed::StreamData”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(149): note: 参见“std::shared_ptr<mynteyed::ImgInfo>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(166): warning C4251: “mynteyed::MotionData::imu”: class“std::shared_ptr<mynteyed::ImuData>”需要有 dll 接口由 struct“mynteyed::MotionData”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(166): note: 参见“std::shared_ptr<mynteyed::ImuData>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(183): warning C4251: “mynteyed::LocationData::gps”: class“std::shared_ptr<mynteyed::GPSData>”需要有 dll 接口由 struct“mynteyed::LocationData”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(183): note: 参见“std::shared_ptr<mynteyed::GPSData>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(200): warning C4251: “mynteyed::DistanceData::dis”: class“std::shared_ptr<mynteyed::ObstacleDis>”需要有 dll 接口由 struct“mynteyed::DistanceData”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(200): note: 参见“std::shared_ptr<mynteyed::ObstacleDis>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(281): warning C4251: “mynteyed::HardwareVersion::flag_”: class“std::bitset<8>”需要有 dll 接口由 class“mynteyed::HardwareVersion”的客户端使用
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(273): note: 参见“std::bitset<8>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(313): warning C4251: “mynteyed::device::Descriptors::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteyed::device::Descriptors”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\types_data.h(314): warning C4251: “mynteyed::device::Descriptors::serial_number”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteyed::device::Descriptors”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\camera.h(274): warning C4251: “mynteyed::Camera::p_”: class“std::unique_ptr<mynteyed::CameraPrivate,std::default_delete<_Ty>>”需要有 dll 接口由 class“mynteyed::Camera”的客户端使用
+          with
+          [
+              _Ty=mynteyed::CameraPrivate
+          ]
+  c:\zimomo\bigcreate\xiaomi\1.8.0\include\mynteyed\camera.h(274): note: 参见“std::unique_ptr<mynteyed::CameraPrivate,std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=mynteyed::CameraPrivate
+          ]
+c:\zimomo\bigcreate\xiaomi\1.8.0\projects\vs2017\mynteyed_demo\mynteyed_demo\mynteyed_demo.cpp(15): fatal error C1083: 无法打开包括文件: “Python.h”: No such file or directory
